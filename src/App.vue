@@ -1,10 +1,17 @@
 <template>
   <v-app>
-    <p-toolbar />
-    <v-content style="background-color: white">
-      <router-view />
-    </v-content>
-    <p-footer />
+    <v-app v-if="type != 'Error 404'">
+      <p-toolbar />
+      <v-main style="background-color: white">
+        <router-view />
+      </v-main>
+      <p-footer />
+    </v-app>
+    <v-app v-if="type == 'Error 404'">
+      <v-main>
+        <router-view />
+      </v-main>
+    </v-app>
   </v-app>
 </template>
 
@@ -18,6 +25,11 @@ export default {
   components: {
     PToolbar,
     PFooter
+  },
+  data() {
+    return{
+      type: this.$route.name,
+    }
   },
 };
 </script>

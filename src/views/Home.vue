@@ -45,8 +45,6 @@
           <v-timeline-item
               :icon="icon ? 'mdi-school' : ''"
               :icon-color=" iconColor ? 'light' : ''"
-              :left="left"
-              :right="right"
               color="blue"
           >
             <span slot="opposite">2017 - 2018</span>
@@ -60,8 +58,6 @@
           <v-timeline-item
               :icon="icon ? 'mdi-certificate-outline' : ''"
               :icon-color=" iconColor ? 'light' : ''"
-              :left="left"
-              :right="right"
               color="blue"
           >
             <span slot="opposite">2018 - 2020</span>
@@ -75,8 +71,6 @@
           <v-timeline-item
               :icon="icon ? 'mdi-book' : ''"
               :icon-color=" iconColor ? 'light' : ''"
-              :left="left"
-              :right="right"
               color="blue"
           >
             <span slot="opposite">2020 - 2021</span>

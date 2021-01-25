@@ -30,7 +30,6 @@
             >Contact</v-btn>
               <v-menu
                   transition="slide-y-transition"
-                  :rounded="rounded"
               >
                 <template v-slot:activator="{ on, attrs }">
                   <v-btn
