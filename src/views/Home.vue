@@ -49,9 +49,9 @@
           >
             <span slot="opposite">2017 - 2018</span>
             <v-card class="elevation-2">
-              <v-card-title class="headline">Lycée Pierre Paul Riquet. Saint-Orens</v-card-title>
+              <v-card-title class="headline">{{$t('studies_school_1')}}.<br>Saint-Orens</v-card-title>
               <v-card-text>
-                BAC STIDD  <br>(Sciences et Technologies de L'industrie et du Développement Durable) Option. SIN (Système D'information et Numérique) <br>Mention Assez Bien
+                {{$t('studies_school_txt_1_1')}}  <br>{{$t('studies_school_txt_1_2')}} <br>{{$t('studies_school_txt_1_3')}}
               </v-card-text>
             </v-card>
           </v-timeline-item>
@@ -62,9 +62,9 @@
           >
             <span slot="opposite">2018 - 2020</span>
             <v-card class="elevation-2">
-              <v-card-title class="headline">Lycée Ozenne. Toulouse</v-card-title>
+              <v-card-title class="headline">{{$t('studies_school_2')}}. Toulouse</v-card-title>
               <v-card-text>
-                BTS SIO (Services Informatiques aux Organisations) <br>Option. SLAM (Solutions Logicielles et Applications Métier)
+                {{$t('studies_school_txt_2_1')}} <br>{{$t('studies_school_txt_2_2')}} <br>{{$t('studies_school_txt_2_3')}}
               </v-card-text>
             </v-card>
           </v-timeline-item>
@@ -75,9 +75,9 @@
           >
             <span slot="opposite">2020 - 2021</span>
             <v-card class="elevation-2">
-              <v-card-title class="headline">IPI. Toulouse</v-card-title>
+              <v-card-title class="headline">{{$t('studies_school_3')}}. Toulouse</v-card-title>
               <v-card-text>
-                Titre Certifié Concepteur Developpeur D'Applications Numeriques. <br>RNCP Niveau 6
+                {{$t('studies_school_txt_3_1')}} <br>{{$t('studies_school_txt_3_2')}}
               </v-card-text>
             </v-card>
           </v-timeline-item>
@@ -135,15 +135,20 @@ export default {
       reverse: true,
       apps: [
         {
-          name: "Batch",
-          price: "GITHUB",
+          name: "Tessi",
+          price: "COMING SOON",
           logo: "tessi.png",
           platforms: [
             {
+              name: "web",
+              icon: "mdi-web",
+              link: "https://www.tessi.eu/fr/"
+            },
+            /*{
               name: "link",
               icon: "mdi-github",
               link: "https://github.com/fyleek/"
-            }
+            }*/
           ],
           description:
             ".......................................................................................................................................................................",
@@ -166,15 +171,20 @@ export default {
           }
         },
         {
-          name: "Ventilation",
-          price: "GITHUB",
-          logo: "dg.png",
+          name: "DG Diffusion",
+          price: "COMING SOON",
+          logo: "dg.jpg",
           platforms: [
             {
+              name: "web",
+              icon: "mdi-web",
+              link: "https://www.dgdiffusion.com/qui-sommes-nous/"
+            },
+            /*{
               name: "link",
               icon: "mdi-github",
               link: "https://github.com/fyleek/"
-            }
+            }*/
           ],
           description:
             ".......................................................................................................................................................................",
@@ -199,7 +209,7 @@ export default {
         {
           name: "Hypotheca",
           price: "LIVE",
-          logo: "anhod.jpg",
+          logo: "anhod.png",
           platforms: [
             {
               name: "link",
@@ -240,7 +250,7 @@ export default {
         {
           name: "Télé-Règlement",
           price: "LIVE",
-          logo: "anhod.jpg",
+          logo: "anhod.png",
           platforms: [
             {
               name: "web",
@@ -302,27 +312,17 @@ export default {
               icon: "mdi-vuetify",
               link: ""
             },
-            {
-              name: "NodeJS",
-              icon: "mdi-nodejs",
-              link: ""
-            },
-            {
-              name: "PHP",
-              icon: "mdi-language-php",
-              link: ""
-            },
           ],
           code: {
             name: "github",
             icon: "mdi-github",
-            link: "https://github.com/fyleek/"
+            link: ""
           }
         },
         {
           name: "Anhod App",
           price: "COMING SOON",
-          logo: "anhod.jpg",
+          logo: "anhod.png",
           platforms: [
             {
               name: "web",

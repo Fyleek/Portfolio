@@ -16,40 +16,45 @@ const messages = {
             under_welcome: 'J\'ai fait quelques projets.',
         // About part
             about_title: 'Plus sur moi',
-                about_txt_1 : 'J\'aime crée des projets pendant mon temps libre et me documenter sur les nouvelles technologies quand j\'ai du temps libre. Je suis curieux de voir comment les choses fonctionnent. Vous êtes libre de télécharger ou voir mon github !',
-                about_txt_2 : 'à la recherce d\'une entreprise pour m\'acceuillir durant mes 2 prochaines années de master',
+                about_txt_1 : 'J\'aime créer des projets et me documenter sur les nouvelles technologies pendant mon temps libre. Je suis curieux de voir comment les choses fonctionnent. Vous êtes libre de télécharger ou voir mon github !',
+                about_txt_2 : 'Je recherce une entreprise pour m\'acceuillir durant mes 2 prochaines années de master',
         // Studies part
             studies_title: 'Mes études',
-                studies_school_1: '....................................................................................................',
-                studies_school_2: '....................................................................................................',
-                studies_school_3: '....................................................................................................',
-                studies_school_txt_1: '....................................................................................................',
-                studies_school_txt_2: '....................................................................................................',
-                studies_school_txt_3: '....................................................................................................',
+                studies_school_1: 'Lycée Pierre Paul Riquet',
+                studies_school_2: 'Lycée Ozenne',
+                studies_school_3: 'IPI',
+                studies_school_txt_1_1: 'BAC STIDD',
+                studies_school_txt_1_2: '(Sciences et Technologies de L\'industrie et du Développement Durable) Option. SIN (Système D\'information et Numérique)',
+                studies_school_txt_1_3: 'Mention Assez Bien',
+                studies_school_txt_2_1: 'BTS SIO (Services Informatiques aux Organisations)',
+                studies_school_txt_2_2: 'Option. SLAM (Solutions Logicielles et Applications Métier)',
+                studies_school_txt_2_3: '',
+                studies_school_txt_3_1: 'Titre Certifié Concepteur Developpeur D\'Applications Numeriques.',
+                studies_school_txt_3_2: 'RNCP Niveau 6',
         // Work part
             work_title: 'Mes projets',
             work_techno_title: 'Technologies Utilisées',
             // TESSI Batch
-                batch_description: 'Ce projet avait pour but de faire du rétro engineering pour passer du langage NSDK à du PL/SQL.\n' +
-                    'Il est la base qui va permettre de faire toutes les vérifications au sein de la base de données avant l’exécution des algorithmes des autres développeurs.\n',
+                batch_description: 'Dans ce projet l\'objectif était de faire du rétro-enguneering de NSDK à du PL/SQL.\r' +
+                    'La partie que j\'ai développé était le tronc commun qui permettrait de vérifier pour n\'import quelle fonction, les entrées,' +
+                    ' les sorties ainsi que la concordance des données au sein de la base et de ces appels',
             // DG Ventilation Analysis
-                ventilation_name : 'Ventilation',
-                ventilation_description: 'La problématique de ce projet était d’éviter la saisie manuelle de centaines de lignes et de calculs à la main.' +
-                    ' Pour cela les information présente dans un fichier csv (Excel)' +
-                    ' était convertie et mise en relation aux valeurs de la base de données pour pouvoir spécifier pour chaque personne,' +
-                    ' chaque catégorie de produits et chaque catégorie de travail quel montant en fonction des heures cela avait-il couté, pour aider la comptabilité.',
+                ventilation_description: 'La ventilation analytique sur deux axes (Marque / Métier) prenant trop de temps à saisir, il fallait trouver un moyen d\'automatiser la génération d\'écritures.' +
+                    'A partir d\'un fichier Excel en CSV, j\'ai mis en place des procédures stockées SQL ainsi qu\'un applicatif en C# d\'analyse des informations pour générer un fichier d\'implémentation' +
+                    ' des ventilations analytiques dans le logiciel (CEGID Business Place)',
             // ANHOD Hypotheca
-                hypotheca_description: 'Le site se faisant vieux et n’étant pas dynamique, il a fallu mettre en place une nouvelle architecture,' +
-                    ' utiliser un langage de programmation plus moderne et maintenu pour rendre l’expérience utilisateur meilleur ainsi' +
-                    ' que de mettre à jour le back-end pour optimiser les requêtes et la base de données.',
+                hypotheca_description: 'Mettre en place un nouveau design et du dynamisme sur un ancien site web, tel était le but de cette mission.' +
+                    'En utilisant une nouvelle architecture ainsi q\'un nouveau langage de programmation (VueJS), j\'ai atteint cet objectif.' +
+                    'J\'ai également mis à jour le back-end en l\'optimisant et en mettant à disposition des clients de nouvelles fonctionnalités.' +
+                    'Ce travail a rendu le site plus moderne, plus dynamique et l\'expérience utilisateur est conforme au standard du moment en terme d\'interface' ,
             // ANHOD Télé-Règlement
-                tele_description: 'Comme pour le projet Hypotheca, le site n’étant plus d’actualité en therme de langage, d’optimisation et de design,' +
-                    ' la partie front et back furent donc entièrement refaite tout en y ajoutant des fonctionnalités.',
+                tele_description: 'Le projet partant du même objectif que hypotheca, j\'ai donc pensé à un nouveau design ainsi que de nouvelles fonctionnalités pour pour le site de recouvrement.' +
+                    'J\'ai donc travaillé sur la partie Front & Back du site',
             // PERSONNAL PortFolio
                 portfolio_description: 'Suite à mon expérience dans l’entreprise Anhod, j’ai décidé de changer entièrement le langage de programmation,' +
                     ' le design et le contenue de mon Portfolio (ancienne fait avec Mobirise) pour le rendre plus dynamique, responsive et moderne.',
             // ANHOD App
-                app_description: '....................................................................................................',
+                app_description: 'Pour le moment le projet est encore en phase de conception/rélfexion nous cherchons quelles solutions pouvons-nous mettre en place pour nos clients.',
         // Contact part
             contact_title: 'Vous pouvez me contacter via ...',
     },
@@ -69,35 +74,42 @@ const messages = {
         about_txt_1 : 'I enjoy building projects in my free time and learn about new technologies when I have time. I\'m curious to see how things work. You are free to download or see my github !',
         // Studies part
             studies_title: 'My studies',
-                studies_school_1: '....................................................................................................',
-                studies_school_2: '....................................................................................................',
-                studies_school_3: '....................................................................................................',
-                studies_school_txt_1: '....................................................................................................',
-                studies_school_txt_2: '....................................................................................................',
-                studies_school_txt_3: '....................................................................................................',
+                studies_school_1: 'Pierre Paul Riquet High School',
+                studies_school_2: 'Ozenne High School',
+                studies_school_3: 'IPI',
+                studies_school_txt_1_1: 'High School Diploma STISD',
+                studies_school_txt_1_2: '(Science and Technology of Industry and Sustainable Development) Option. IDS (Information and Digital System)',
+                studies_school_txt_1_3: 'Pretty Good awarded. CEC 4',
+                studies_school_txt_2_1: 'Advanced Technician\'s Certificate ISO (IT Services to Organizations)',
+                studies_school_txt_2_2: 'Option. SSBA (Software Solutions and Business Applications)',
+                studies_school_txt_2_3: 'CEC 5',
+                studies_school_txt_3_1: 'Bachelor\'s degree Designer Developer Of Digital Applications.',
+                studies_school_txt_3_2: 'CEC 6',
         // Work part
             work_title: 'My work',
             work_techno_title: 'Technologies Used',
             // TESSI Batch
-                batch_description: 'The goal of this project was to reverse engineer to move from NSDK language to PL / SQL.\n' +
-                    'It is the basis that will allow all the checks to be made within the database before executing the algorithms of other developers.',
+                batch_description: 'In this project the objective was to retro-enguneering from NSDK to PL / SQL.' +
+                    ' The part that I developed was the common core which would make it possible to check for any function, the inputs,' +
+                    ' the outputs as well as the concordance of the data within the base and these calls',
             // DG Ventilation Analysis
-                ventilation_name : 'Ventilation',
-                ventilation_description: 'The problem with this project was to avoid the manual entry of hundreds of lines and calculations by hand.' +
-                    ' For this the information present in a csv file (Excel) was converted and linked to the values of the database to be able to specify for each person,' +
-                    ' each category of products and each category of work what amount according to the hours that had- it cost, to help accounting.',
+                ventilation_description: 'The analytical breakdown on two axes (Brand / Business) taking too long to enter, I had to find a way to automate the generation of entries.' +
+                    '\n' +
+                    'From an Excel file in CSV, I set up SQL stored procedures and an application in C # for information analysis,' +
+                    'to generate an implementation file for the analytical breakdowns in the software (CEGID Business Place)',
             // ANHOD Hypotheca
-                hypotheca_description: 'The site getting old and not being dynamic, it was necessary to set up a new architecture,' +
-                    ' to use a more modern and maintained programming language to make the user experience better as well as to update the back-end to optimize queries and the database.',
+                hypotheca_description: 'Implementing a new design and dynamism on an old website, that was the goal of this mission. By using a new architecture as well as a new programming language (VueJS),' +
+                    'I achieved this goal. \n' +
+                    'I also updated the back end by optimizing it and making new features available to customers.' +
+                    ' This work has made the site more modern, more dynamic and the user experience conforms to the current standard in terms of interface.',
             // ANHOD Télé-Règlement
-                tele_description: '\n' +
-                    'As for the Hypotheca project, the site is no longer up-to-date in terms of language, optimization and design,' +
-                    ' the front and back part were therefore completely redone while adding features.',
+                tele_description: 'Following my experience in the Anhod company,' +
+                    ' I decided to completely change the programming language, the design and the content of my Portfolio (formerly done with Mobirise) to make it more dynamic, responsive and modern.',
             // PERSONNAL PortFolio
-                portfolio_description: 'Following my experience in the Anhod company, I decided to completely change the programming language,' +
-                    ' the design and the content of my Portfolio (formerly done with Mobirise) to make it more dynamic, responsive and modern.',
+                portfolio_description: 'The project started from the same objective as hypotheca, ' +
+                    'so I thought of a new design as well as new functionalities for the  recovery site, so I worked on the Front & Back part of the site',
             // ANHOD App
-                app_description: '....................................................................................................',
+                app_description: 'For the moment the project is still in the design / reflection phase we are looking for what solutions can we put in place for our clients.',
         // Contact part
         contact_title: 'You can contact me through...',
     }

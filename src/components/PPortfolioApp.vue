@@ -35,8 +35,8 @@
       </v-layout>
     </v-card-title>
     <v-card-text>
-      <div v-if="app.name == 'Batch'">{{ $t('batch_description') }}</div>
-      <div v-if="app.name == 'Ventilation'">{{ $t('ventilation_description') }}</div>
+      <div v-if="app.name == 'Tessi'">{{ $t('batch_description') }}</div>
+      <div v-if="app.name == 'DG Diffusion'">{{ $t('ventilation_description') }}</div>
       <div v-if="app.name == 'Hypotheca'">{{ $t('hypotheca_description') }}</div>
       <div v-if="app.name == 'Télé-Règlement'">{{ $t('tele_description') }}</div>
       <div v-if="app.name == 'PortFolio'">{{ $t('portfolio_description') }}</div>
