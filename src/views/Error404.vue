@@ -25,18 +25,18 @@ html {
 }
 
 body {
-  box-sizing: border-box;
-  height: 100%;
-  background-color: #000000;
-  background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: 'Inconsolata', Helvetica, sans-serif;
-  font-size: 1.5rem;
-  color: rgba(128, 255, 128, 0.8);
+  box-sizing: border-box !important;;
+  height: 100% !important;
+  background-color: #000000 !important;
+  background-image: radial-gradient(#11581E, #041607), url("https://media.giphy.com/media/oEI9uBYSzLpBK/giphy.gif") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  font-family: 'Inconsolata', Helvetica, sans-serif !important;
+  font-size: 1.5rem !important;
+  color: rgba(128, 255, 128, 0.8) !important;
   text-shadow:
       0 0 1ex rgba(51, 255, 51, 1),
-      0 0 2px rgba(255, 255, 255, 0.8);
+      0 0 2px rgba(255, 255, 255, 0.8) !important;
 }
 
 .noise {
