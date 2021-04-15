@@ -1,5 +1,5 @@
 <template>
-  <body>
+  <body class="body">
     <div class="noise"></div>
     <div class="overlay"></div>
     <div class="terminal">
@@ -24,7 +24,7 @@ html {
   min-height: 100%;
 }
 
-body {
+.body {
   box-sizing: border-box !important;;
   height: 100% !important;
   background-color: #000000 !important;
