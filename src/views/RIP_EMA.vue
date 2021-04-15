@@ -53,7 +53,6 @@ export default {
       const regex = /\{\\"correct\\":true,\\"tipsAndFeedback\\":{\\"tip\\":\\"\\",\\"chosenFeedback\\":\\"\\",\\"notChosenFeedback\\":\\"\\"\},\\"text\\":\\"<div>./g;
       //const regex = /\{\\"correct\\":true,\\"tipsAndFeedback\\":\{\\"chosenFeedback\\":\\"(.*?)\\",\\"notChosenFeedback\\":\\"(.*?)\\",\\"tip\\":\\"\\"},\\"text\\":\\"<div>./g;
       const found = paraph.match(regex);
-      console.log(found);
       let nbr_valeur = found.length;
       let i = 0;
       while (i < nbr_valeur) {
