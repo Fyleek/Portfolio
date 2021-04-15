@@ -22,6 +22,9 @@ export default {
 @import 'https://fonts.googleapis.com/css?family=Inconsolata';
 
 body {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   margin: 0px;
   box-sizing: border-box !important;
   height: 100% !important;
