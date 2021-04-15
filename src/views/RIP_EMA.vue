@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <template>
   <div class="pt-150 txt">
     <div class="container pb-100">

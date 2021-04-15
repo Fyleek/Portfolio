@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <template>
   <body class="body">
     <div class="noise"></div>
