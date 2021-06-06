@@ -17,7 +17,7 @@ const messages = {
         // About part
             about_title: 'Plus sur moi',
                 about_txt_1 : 'J\'aime créer des projets et me documenter sur les nouvelles technologies pendant mon temps libre. Je suis curieux de voir comment les choses fonctionnent. Vous êtes libre de télécharger ou voir mon github !',
-                about_txt_2 : 'Je recherce une entreprise pour m\'acceuillir durant mes 2 prochaines années de master',
+                about_txt_2 : 'Je compte poursuivre ma passion en compagnie de l\'entreprise Sopra Steria qui m\'acceuille pour les deux prochaines années de mon master.',
         // Studies part
             studies_title: 'Mes études',
                 studies_school_1: 'Lycée Pierre Paul Riquet',
@@ -35,26 +35,26 @@ const messages = {
             work_title: 'Mes projets',
             work_techno_title: 'Technologies Utilisées',
             // TESSI Batch
-                batch_description: 'Dans ce projet l\'objectif était de faire du rétro-enguneering de NSDK à du PL/SQL.\r' +
-                    'La partie que j\'ai développé était le tronc commun qui permettrait de vérifier pour n\'import quelle fonction, les entrées,' +
-                    ' les sorties ainsi que la concordance des données au sein de la base et de ces appels',
+                batch_description: 'Dans ce projet l\'objectif était de faire du rétro-engineering de NSDK à du PL/SQL.\r' +
+                    'La partie que j\'ai développé était le tronc commun qui permet de vérifier pour n\'importe quelle fonction, les entrées,' +
+                    ' les sorties ainsi que la concordance des données au sein de la base et de ces appels.',
             // DG Ventilation Analysis
                 ventilation_description: 'La ventilation analytique sur deux axes (Marque / Métier) prenant trop de temps à saisir, il fallait trouver un moyen d\'automatiser la génération d\'écritures.' +
                     'A partir d\'un fichier Excel en CSV, j\'ai mis en place des procédures stockées SQL ainsi qu\'un applicatif en C# d\'analyse des informations pour générer un fichier d\'implémentation' +
-                    ' des ventilations analytiques dans le logiciel (CEGID Business Place)',
+                    ' des ventilations analytiques dans le logiciel (CEGID Business Place).',
             // ANHOD Hypotheca
                 hypotheca_description: 'Mettre en place un nouveau design et du dynamisme sur un ancien site web, tel était le but de cette mission.' +
-                    'En utilisant une nouvelle architecture ainsi q\'un nouveau langage de programmation (VueJS), j\'ai atteint cet objectif.' +
+                    'En utilisant une nouvelle architecture ainsi qu\'un nouveau langage de programmation (VueJS), j\'ai atteint cet objectif.' +
                     'J\'ai également mis à jour le back-end en l\'optimisant et en mettant à disposition des clients de nouvelles fonctionnalités.' +
-                    'Ce travail a rendu le site plus moderne, plus dynamique et l\'expérience utilisateur est conforme au standard du moment en terme d\'interface' ,
+                    'Ce travail a rendu le site plus moderne, plus dynamique et l\'expérience utilisateur est conforme au standard du moment en terme d\'interface.' ,
             // ANHOD Télé-Règlement
-                tele_description: 'Le projet partant du même objectif que hypotheca, j\'ai donc pensé à un nouveau design ainsi que de nouvelles fonctionnalités pour pour le site de recouvrement.' +
-                    'J\'ai donc travaillé sur la partie Front & Back du site',
+                tele_description: 'Le projet partant du même objectif que hypotheca, j\'ai donc pensé à un nouveau design ainsi qu\'à de nouvelles fonctionnalités pour pour le site de recouvrement.' +
+                    'J\'ai donc travaillé sur la partie Front & Back du site.',
             // PERSONNAL PortFolio
                 portfolio_description: 'Suite à mon expérience dans l’entreprise Anhod, j’ai décidé de changer entièrement le langage de programmation,' +
                     ' le design et le contenue de mon Portfolio (ancienne fait avec Mobirise) pour le rendre plus dynamique, responsive et moderne.',
             // ANHOD App
-                app_description: 'Pour le moment le projet est encore en phase de conception/rélfexion nous cherchons quelles solutions pouvons-nous mettre en place pour nos clients.',
+                app_description: 'Pour le moment le projet est encore en phase de conception/réflexion nous cherchons quelles solutions pouvons-nous mettre en place pour nos clients.',
         // Contact part
             contact_title: 'Vous pouvez me contacter via ...',
     },
@@ -89,7 +89,7 @@ const messages = {
             work_title: 'My work',
             work_techno_title: 'Technologies Used',
             // TESSI Batch
-                batch_description: 'In this project the objective was to retro-enguneering from NSDK to PL / SQL.' +
+                batch_description: 'In this project the objective was to retro-engineering from NSDK to PL / SQL.' +
                     ' The part that I developed was the common core which would make it possible to check for any function, the inputs,' +
                     ' the outputs as well as the concordance of the data within the base and these calls',
             // DG Ventilation Analysis
